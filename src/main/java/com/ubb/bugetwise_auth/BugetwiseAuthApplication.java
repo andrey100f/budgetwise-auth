@@ -15,10 +15,10 @@ public class BugetwiseAuthApplication {
 		SpringApplication.run(BugetwiseAuthApplication.class, args);
 	}
 
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+	// @Bean
+	// @LoadBalanced
+	// public RestTemplate restTemplate() {
+	// 	return new RestTemplate();
+	// }
 
 }

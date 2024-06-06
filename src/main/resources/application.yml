@@ -1,7 +1,7 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: https://budget-wise-discovery-server-production.up.railway.app/eureka/
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: https://budget-wise-discovery-server-production.up.railway.app/eureka/
 spring:
   application:
     name: auth
